@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Machine Learning A-Z/.idea/Machine Learning A-Z.iml" filepath="$PROJECT_DIR$/../Machine Learning A-Z/.idea/Machine Learning A-Z.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Regression Demo.iml" filepath="$PROJECT_DIR$/.idea/Regression Demo.iml" />
+    </modules>
+  </component>
+</project>

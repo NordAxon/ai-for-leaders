@@ -22,8 +22,9 @@ def dataset_choise_print():
     ###### Available datasets ######
     print('Which dataset do you want to use for training & testing this linear regression model? Choose by typing dataset number [1, 2, 3 ...] ' + '\n'
     + '1) Salary vs Experience dataset, predicting salary in [SEK] for Swedish dentists given their years of experience. ' + '\n'
-    + '2) Claims payment vs Nr of claims, predicting total payment for all swedish auto claims in [SEK] given the total number of claims.' + '\n'
-    + '3) Small & simple dataset' + '\n'
+    + '2) Interest rates vs House prices, predicting houses prices [USD] given the interest rate.' + '\n'
+    + '3) Claims payment vs Nr of claims, predicting total payment for all swedish auto claims in [SEK] given the total number of claims.' + '\n'
+    + '4) Small & simple dataset' + '\n'
     + '--> Type 0 (zero) for Quit!'
     )
 
@@ -37,18 +38,22 @@ def dataset_choise(algorithm):
 
     if int(dataset_choise_nr) == 1:
         filename = 'Salary_Data.csv'
-        plt.title('Swedish dentists - Salary vs Experience', fontsize=22)
+        plt.title('SWEDISH DENTISTS - SALARY vs EXPERIENCE', fontsize=22)
         plt.xlabel('Years of experience', fontsize=20)
         plt.ylabel('Salary [SEK]', fontsize=20)
-
     elif int(dataset_choise_nr) == 2:
+        filename = 'InterestRate_HomePrice.csv'
+        plt.title('HOME PRICES - INTEREST RATES', fontsize=22)
+        plt.xlabel('Interest rate', fontsize=20)
+        plt.ylabel('Home price[USD]', fontsize=20)
+    elif int(dataset_choise_nr) == 3:
         filename = 'Claims.csv'
-        plt.title('Swedish auto insurance - Claims Payment vs Nr of Claims', fontsize=22)
+        plt.title('AUTO INSURANCE IN SWEDEN - CLAIMS PAYMENT vs NR OF CLAIMS', fontsize=22)
         plt.xlabel('Tot nr of claims', fontsize=20)
         plt.ylabel('Claims payment [SEK]', fontsize=20)
-    elif int(dataset_choise_nr) == 3:
+    elif int(dataset_choise_nr) == 4:
             filename = 'Simple.csv'
-            plt.title('Small & simple dataset ', fontsize=22)
+            plt.title('TESTING DATASET ', fontsize=22)
             plt.xlabel('X', fontsize=20)
             plt.ylabel('Y', fontsize=20)
     elif int(dataset_choise_nr) == 0:
