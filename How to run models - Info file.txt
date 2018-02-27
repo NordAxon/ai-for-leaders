@@ -1,0 +1,36 @@
+*********************
+*** RUNABLE FILES ***
+*********************
+1) RegressionOwn.py
+--> Simple linear regression model including math
+--> No training/test data split, just line fitting into existing dataset
+
+2) RegressionSklearn.py
+--> Simple linear regression model using Scikit-learn
+--> No training/test data split, just line fitting into existing dataset
+
+3) RegressionOwnTrainTest.py
+--> Simple linear regression model including math
+--> With training/test data split
+
+4) RegressionSklearnTrainTest.py
+--> Simple linear regression model using Scikit-learn
+--> With training/test data split
+
+
+*********************
+*** OTHER FILES ***
+*********************
+RegressionDatasets.py
+--> User-interface file and data connector
+
+
+*********************
+*** DATASET FILES ***
+*********************
+Very small datasets, the point is to demonstrate the concept with regression and not to test it on the big datasets. 
+If you have some exciting datasets, 2 variables, we can run them but make sure to prepare them as .csv file.
+1) Claims.csv
+2) InterestRate_HomePrice.csv
+3) Salary_Data.csv
+4) Simple.csv
