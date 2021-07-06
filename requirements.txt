@@ -106,7 +106,7 @@ setuptools==52.0.0.post20210125
 six==1.15.0
 tensorboard==2.4.0
 tensorboard-plugin-wit==1.6.0
-tensorflow==2.3.0
+tensorflow==2.4.2
 tensorflow-estimator==2.5.0
 termcolor==1.1.0
 terminado==0.9.4
