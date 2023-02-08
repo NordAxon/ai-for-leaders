@@ -21,7 +21,7 @@ click==7.1.2
 colorama==0.4.4
 cookiecutter==1.7.2
 coverage==5.5
-cryptography==3.4.7
+cryptography==39.0.1
 cycler==0.10.0
 Cython==0.29.23
 decorator==4.4.2
